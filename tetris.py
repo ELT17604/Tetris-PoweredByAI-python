@@ -1,3 +1,5 @@
+'''V1TestVer'''
+
 import random
 import time
 
@@ -60,6 +62,13 @@ score = 0
 while True:
     # Clear the screen
     print('\033[H\033[J')
+        #clears the terminal screen
+        # It uses the ANSI escape codes \033[H and \033[J
+        # to move the cursor to the top left corner of the screen and clear the screen,
+        # respectively.
+        # This is done to create the illusion of animation
+        #  as the game board is updated in the terminal.
+
 
     # Print the game board
     for row in board:
